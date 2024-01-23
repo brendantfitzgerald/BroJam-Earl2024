@@ -25,7 +25,7 @@ func _ready():
 func fire_weapon():
 	#How many?  What other settings?  direction?
 	var my_bullet = bullet_scene.instantiate()
-	print("FP:", $FirePoint.position)
+	#print("FP:", $FirePoint.position)
 	my_bullet.global_position = $FirePoint.global_position
 	get_tree().get_root().add_child(my_bullet)
 

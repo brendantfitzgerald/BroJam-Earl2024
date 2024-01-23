@@ -28,3 +28,4 @@ texture = ExtResource("3_eh3aa")
 [node name="BaseAutoWeapon" parent="Player/Weapons" instance=ExtResource("4_ankvn")]
 
 [node name="Enemy" parent="." instance=ExtResource("5_w1jkk")]
+position = Vector2(575, 357)
