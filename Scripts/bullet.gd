@@ -6,7 +6,7 @@ var SPEED = 300
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	rotation_speed = randf_range(350 * 0.5, 350 * 1.5)
-	print("spawn bullet")
+	#print("spawn bullet")
 
 func _process(delta):
 	$Sprite2D.rotation_degrees += rotation_speed * delta
