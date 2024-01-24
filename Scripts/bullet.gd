@@ -1,7 +1,8 @@
 extends CharacterBody2D
 
 var rotation_speed = 350
-var SPEED = 300
+var bullet_speed = 1000
+
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
